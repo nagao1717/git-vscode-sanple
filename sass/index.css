@@ -1,1 +1,35 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+@charset "UTF-8";
+.box {
+  width: 300px;
+  height: 294px;
+  background-image: url(https://drive.google.com/uc?export=view&id=1atUGAnFlLxXeiArsJ6m4_c7uSXfeaLwu);
+  border: 3px solid #235A6A;
+  background-size: 50px;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+/* 以降のコードは本題には、関係ない */
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}
+
+li {
+  padding: 10px 20px;
+  background-color: #4DBAF5;
+  color: #fff;
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.box {
+  margin-top: 16px;
+  -webkit-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+}
+/*# sourceMappingURL=index.css.map */
